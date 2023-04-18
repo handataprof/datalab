@@ -92,7 +92,7 @@ Er zijn drie mogelijke vormen van samenwerking [@skelton2019team] waaruit kan wo
 ::: {.callout-tip .my-5}
 ## Beslisvraag Activiteiten
 
-2.  Op welke activiteiten richten we ons, zodat we onze doelstelling gaan bereiken?
+2.  Op welke activiteiten richt het Datalab zich, zodat de doelstelling gaan bereiken?
 :::
 
 ## - Budget en investeringen
