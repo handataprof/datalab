@@ -33,7 +33,6 @@ Bedrijven uit het MKB-segment zijn zich vaak niet altijd bewust van wat de ontwi
   </div>
 </div>
 ```
-
 ## - Strategie
 
 Kansen met Data heeft twee doelstellingen:
@@ -101,7 +100,7 @@ Er zijn drie mogelijke vormen van samenwerking [@skelton2019team] waaruit kan wo
 ::: {.callout-tip .my-5}
 ## Beslisvraag Budget en Investeringen
 
-2.  Hoeveel budget krijgt het Datalab en hoe wordt deze verdeeld over de afzonderlijke activteiten?
+3.  Hoeveel budget krijgt het Datalab en hoe wordt deze verdeeld over de afzonderlijke activteiten?
 :::
 
 ## - Bronnen
