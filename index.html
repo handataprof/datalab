@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="nl" xml:lang="nl"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Corné de Ruijt">
+<meta name="author" content="Witek ten Hove">
+
+<title>Kansen met Data - Project Datalab</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+
+<script src="index_files/libs/clipboard/clipboard.min.js"></script>
+<script src="index_files/libs/quarto-html/quarto.js"></script>
+<script src="index_files/libs/quarto-html/popper.min.js"></script>
+<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="index_files/libs/quarto-html/anchor.min.js"></script>
+<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="index_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<style>
+    .quarto-title-block .quarto-title-banner {
+      background: #e50055;
+    }
+    </style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Kansen met Data - Project Datalab</h1>
+            <p class="subtitle lead">Lectoraat Supply Chain Finance - Hogeschool Windesheim <br> Lectoraat Logistiek &amp; Allianties - HAN</p>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Auteurs</div>
+      <div class="quarto-title-meta-contents">
+               <p>Corné de Ruijt </p>
+               <p>Witek ten Hove </p>
+            </div>
+    </div>
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Inhoudsopgave</h2>
+   
+  <ul>
+  <li><a href="#missie-visie" id="toc-missie-visie" class="nav-link active" data-scroll-target="#missie-visie"><span class="toc-section-number">1</span>  - Missie / Visie</a></li>
+  <li><a href="#strategie" id="toc-strategie" class="nav-link" data-scroll-target="#strategie"><span class="toc-section-number">2</span>  - Strategie</a></li>
+  <li><a href="#organisatie" id="toc-organisatie" class="nav-link" data-scroll-target="#organisatie"><span class="toc-section-number">3</span>  - Organisatie</a>
+  <ul class="collapse">
+  <li><a href="#samenwerking-datalab" id="toc-samenwerking-datalab" class="nav-link" data-scroll-target="#samenwerking-datalab">Samenwerking Datalab</a></li>
+  </ul></li>
+  <li><a href="#activiteiten" id="toc-activiteiten" class="nav-link" data-scroll-target="#activiteiten"><span class="toc-section-number">4</span>  - Activiteiten</a></li>
+  <li><a href="#budget-en-investeringen" id="toc-budget-en-investeringen" class="nav-link" data-scroll-target="#budget-en-investeringen"><span class="toc-section-number">5</span>  - Budget en investeringen</a></li>
+  <li><a href="#bronnen" id="toc-bronnen" class="nav-link" data-scroll-target="#bronnen"><span class="toc-section-number">6</span>  - Bronnen</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<section id="missie-visie" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="missie-visie"><span class="header-section-number">1</span> - Missie / Visie</h2>
+<p>Bedrijven uit het MKB-segment zijn zich vaak niet altijd bewust van wat de ontwikkelingen op het gebied van digitalisering en datatechnologie voor hen betekenen. Daar waar het bewustzijn wel aanwezig is of de noodzaak wordt gevoeld om te veranderen, is helaas niet altijd relevante kennis en expertise aanwezig. De SPRONG-groep Kansen met Data (KmD) wil het MKB gaan helpen met digitaliserings- en datavraagstukken door kennis en kunde te bundelen in één gezamenlijke onderzoeksgroep en deze te delen diverse (kennis)partners, het onderwijs én de praktijk <span class="citation" data-cites="noauthor_kansen_nodate">(<a href="#ref-noauthor_kansen_nodate" role="doc-biblioref"><span>‘Kansen voor data én samenwerking in mkb: <span>Windesheim</span> en <span>HAN</span> versterken concurrentiekracht in regio door inzet van data’</span> z.d.</a>)</span>.</p>
+<div class="card m-5 w-75">
+<div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/Qhvh4xE8GUY?rel=0" title="YouTube video player" allowfullscreen=""></iframe>
+</div>
+  <div class="card-body">
+    <h5 class="card-title anchored">Digitale Transformatie in Europa</h5>
+    <p class="card-text">Europa lijkt achter te lopen op zijn Amerikaanse en Chinese rivalen als het gaat om de digitale economie. Nepnieuws, onzeker werk en gegevensdiefstal zijn allemaal toegenomen onder de Amerikaanse digitale hegemonie, waar slechts een paar particuliere bedrijven de digitale wereld domineren (zie <a href="#fig-marketcap">Figuur 1</a>). Wat kunnen wij als Europeanen doen om de achterstand weer in te halen en hoe ver zijn we daarmee?</p>
+  </div>
+</div>
+</section>
+<section id="strategie" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="strategie"><span class="header-section-number">2</span> - Strategie</h2>
+<p>Kansen met Data heeft twee doelstellingen:</p>
+<ol type="1">
+<li><p>Het ontwikkelen van langetermijnrelaties met MKB’ers om hun echt een stap verder te brengen in Data Science.</p></li>
+<li><p>Het verbeteren van onderwijs op het gebied van Data Science binnen Hogeschool Windesheim en de HAN.</p></li>
+</ol>
+</section>
+<section id="organisatie" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="organisatie"><span class="header-section-number">3</span> - Organisatie</h2>
+<p>Vanaf september 2022 is er organisatorisch een nieuwe weg ingeslagen, hierin staan vier groepen centraal:</p>
+<ul>
+<li><p>De Sectorhoofden: De schakel tussen MKB/strategische partners (publiek, netwerkorganisaties, etc.) en KmD.</p></li>
+<li><p>Het Datalab: De schakel tussen KmD en het onderwijs/onderzoek binnen de hogescholen.</p></li>
+<li><p>Matchingscoördinatie: Het borgen van het proces van MKB-vraag tot uitvoering binnen onderwijs/onderzoek.</p></li>
+<li><p>Algemene communicatie, business development &amp; support:</p>
+<ul>
+<li><p>De strategische agenda’s kennen van strategische partners en mogelijkheden zien waar we als Kansen met Data op kunnen aansluiten.</p></li>
+<li><p>Profilering van KmD-activiteiten (workshops, events, whitepapers, etc.).</p></li>
+<li><p>Ondersteuning van de SPRONG-groep.</p></li>
+</ul></li>
+</ul>
+<div id="fig-marketcap" class="quarto-figure quarto-figure-center anchored" style="cursor: zoom-in;">
+<figure class="figure">
+<p><img src="organisatiekmd.jpeg" class="m-5 w-75 img-fluid figure-img" onclick="toggleImageSize(&quot;fig-marketcap&quot;)" title="Click to enlarge"></p>
+<p></p><figcaption class="figure-caption">Figuur&nbsp;1: De ‘bow tie’: organisatie SPRONG-groep Kansen met Data.</figcaption><p></p>
+</figure>
+</div>
+<section id="samenwerking-datalab" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="samenwerking-datalab">Samenwerking Datalab</h3>
+<p>Er zijn drie mogelijke vormen van samenwerking <span class="citation" data-cites="skelton2019team">(<a href="#ref-skelton2019team" role="doc-biblioref">Skelton en Pais 2019</a>)</span> waaruit kan worden gekozen:</p>
+<ol type="1">
+<li><p><strong>Close collaboration</strong>: Nauwe samenwerking tussen Hogeschool Windesheim en de HAN. Bv.: we stellen één team vanuit Windesheim en HAN samen om de maturity scan verder te ontwikkelen.</p></li>
+<li><p><strong>Facilitator</strong>: Één groep (bv. een lectoraat) richt zich voornamelijk op de ontwikkeling van een bepaald product/dienst binnen het datalab. Als het product/dienst eenmaal handen en voeten heeft faciliteert het dit product/dienst aan de andere groep, waarbij ondersteuning wordt geboden. Bv.: L&amp;A richt zich op doorontwikkeling van de scan, en faciliteert deze voor gebruik aan Windesheim, waarbij zij toelichting geven op de keuzes die gemaakt zijn, en Windesheim suggesties kan doorgeven voor aanpassingen.</p></li>
+<li><p><strong>X-As-A-Service (XAAS)</strong>: Vergelijkbaar met facilitator, echter wordt hier een product/dienst geleverd ‘as is’. De groep die het product/dienst heeft ontwikkeld, faciliteert hier dus niet in de adoptie binnen een andere groep en ook is er geen ruimte voor ‘feature requests’. Bv.: De HAN ontwikkeld de maturity scan ‘as is’. Windesheim kan er gebruik van maken, maar er is geen mogelijkheid om verdere uitleg te ontvangen over de werking van de scan, dan wel om invloed uit te oefenen op de ontwikkeling van de scan.</p></li>
+</ol>
+<div class="callout-tip my-5 callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Beslisvraag Samenwerking
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Welke samenwerkingsvorm kiezen we zodat we optimaal aan onze doelstelling kunnen werken?</li>
+</ol>
+</div>
+</div>
+</section>
+</section>
+<section id="activiteiten" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="activiteiten"><span class="header-section-number">4</span> - Activiteiten</h2>
+<ol type="1">
+<li><p>Onderzoek, de subsidiecall van SPRONG leest: <em>“Het SPRONG-programma richt zich niet direct op het uitvoeren van praktijkgericht onderzoek, maar op de randvoorwaarden om tot goed praktijkgericht onderzoek te komen.”</em> Onder onderzoek verstaan we hierbij dan ook niet direct het onderzoek zelf, maar vooral (a) weten van elkaars onderzoek, en (b) mogelijkheden herkennen tot samenwerking in onderzoek. Het afgelopen jaar is meerdere malen gekeken of de twee lectoraten gezamenlijk bij onderzoekvoorstellen betrokken konden worden, maar dit werd in de meeste gevallen geïniteerd door de lectoren. Door beter te weten van elkaars onderzoek wordt het makkelijker om samenwerking op te zoeken.</p></li>
+<li><p>Data Management, op het gebied van data management voor data science schiet het beleid van de hogescholen soms te kort. Zo is het Windesheim beleid dat bedrijven zelf verantwoordelijk zijn dat zij een veilige omgeving bieden wanneer studenten aan de slag gaan met hun data. Ondanks dat dit vanuit juridisch oogpunt logisch is, is nu net het probleem dat veel MKB’ers data management niet goed op orde hebben. Deze activiteit gaat dus over de vraag hoe we het proces geschetst in Figuur 1 op een veilige*** manier kunnen doen.</p></li>
+<li><p>Maturity scan, doorontwikkeling &amp; uitrol van de door DAC ontwikkelde data maturity scan.</p></li>
+<li><p>Digitaal platform/helpdesk, het afgelopen jaar is er meermaals gesproken over de mogelijkheid om een digitaal platform op te tuigen waarop kennis vanuit KmD gedeeld kan worden met partners (of andere geïnteresseerden).</p></li>
+<li><p>Profilering, als datalab willen we laten zien wat we doen, om zo bedrijven en studenten enthousiast te maken voor data science. Dit kan door bv. workshops, whitepapers, etc.</p></li>
+</ol>
+<div class="callout-tip my-5 callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Beslisvraag Activiteiten
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol start="2" type="1">
+<li>Op welke activiteiten richten we ons, zodat we onze doelstelling gaan bereiken?</li>
+</ol>
+</div>
+</div>
+</section>
+<section id="budget-en-investeringen" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="budget-en-investeringen"><span class="header-section-number">5</span> - Budget en investeringen</h2>
+<div class="callout-tip my-5 callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Beslisvraag Budget en Investeringen
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol start="2" type="1">
+<li>Hoeveel budget krijgt het Datalab en hoe wordt deze verdeeld over de afzonderlijke activteiten?</li>
+</ol>
+</div>
+</div>
+</section>
+<section id="bronnen" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="bronnen"><span class="header-section-number">6</span> - Bronnen</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-noauthor_kansen_nodate" class="csl-entry" role="doc-biblioentry">
+<span>‘Kansen voor data én samenwerking in mkb: <span>Windesheim</span> en <span>HAN</span> versterken concurrentiekracht in regio door inzet van data’</span>. z.d. Geraadpleegd 18 april 2023. <a href="https://www.windesheim.nl/nieuws/2021/november/kansen-voor-data-en-samenwerking-in-mkb">https://www.windesheim.nl/nieuws/2021/november/kansen-voor-data-en-samenwerking-in-mkb</a>.
+</div>
+<div id="ref-skelton2019team" class="csl-entry" role="doc-biblioentry">
+Skelton, Matthew, en Manuel Pais. 2019. <em>Team topologies: organizing business and technology teams for fast flow</em>. It Revolution.
+</div>
+</div>
+</section>
+
+</main>
+<!-- /main column -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+<script>
+
+// Function to increase image size
+function toggleImageSize(imageId) {
+  const image = document.getElementById(imageId); // Get the image element by its id
+
+  if (image.style.width !== '175%') { // If the image is not large
+    image.style.width = '175%'; // Toggle it to large width
+    image.style.cursor = 'zoom-out';
+  } else { // Otherwise
+    image.style.width = '100%'; // Toggle it to 100% width
+    image.style.cursor = 'zoom-in';
+  }
+}
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Gekopieerd!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Gekopieerd!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
